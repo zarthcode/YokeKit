@@ -26,7 +26,7 @@
 "X_Shaft_Teeth"= 60'Number of teeth on the X/Main shaft pulley
 "X_Drive_PD"= ( "X_Drive_Teeth" * "X_BeltPitch" ) / PI'Pitch Diameter of the X/main motor pulley
 "X_Shaft_PD"= ( "X_Shaft_Teeth" * "X_BeltPitch" ) / PI'Pitch Diameter of the X/main shaft pulley
-"X_CenterDistance"= 55mm'Distance between the main shaft and motor pulley centers
+"X_CenterDistance" = 60mm'Distance between the main shaft and motor pulley centers
 "GantryLength"= 150mm'Length of the gantry extrusion/plate
 "X_MotorPlateThickness"= 15mm'Thickness of the plate used to hold the X/main motor
 "X_MotorPlateLength"= "X_MotorPlateThickness" + "ExtrusionStandard" * 2'FIXME
@@ -47,7 +47,7 @@
 "Y_Drive_BearingBoltCircleDiameter"= "calc_Y_Drive_BearingLargestDiameter" + ( "Y_Drive_ShaftCollarClearance" * 2 ) + ( "WallThickness" * 2 ) + 2 * 10mm'FIXME - unused?
 "M3_ClearanceDiameter"= 8mm'Keepout diameter for M3 holes
 "M5_ClearanceDiameter"= 10mm'Keepout Diameter for M5 holes
-"Y_Drive_CenterDistance"= 65mm'Center Distance between Y motor drive and leadscrew pulley
+"Y_Drive_CenterDistance"= 60mm'Center Distance between Y motor drive and leadscrew pulley
 "Y_Drive_Teeth"= 20'Number of teeth on the Y/linear stepper pulley
 "Y_Drive_ShaftTeeth"= 60'Number of teeth on the Y/linear leadscrew pulley
 "Y_Drive_BeltWidth"= 9mm'Width of the belt used on the Y/linear drive
@@ -77,3 +77,4 @@
 "ExtrusionLength"= 400mm
 "TopPanelWidth" = 150mm
 "BodyPanelThickness"= .25in'Thickness of side and top body panels.
+"BottomWidth"= "TopPanelWidth" + "ExtrusionStandard" * 2
