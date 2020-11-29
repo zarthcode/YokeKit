@@ -1,0 +1,10 @@
+﻿"ThumbPanelCamber"= 30deg'Rotation of Thumb panel about Y axis
+"ThumbPanelInsideDraft"= 10deg'Inside draft of the thumb panel
+"ThumbPanelOutsideDraft" = 2deg'Outside draft of the thumb panel
+"ThumbPanelForwardDraft"= 15deg'Forward Angle of the thumb panel
+"ThumbPanelRadius"= 22.65mm'Radius of the back of the thumb panel
+"ThumbPanelLength"= 34.5mm'Length of the front of the thumb panel
+"WallThickness"= 3'Standard Wall Thickness
+"ThumbPanelOutsideFillet"= 10mm'Fillet applied to outside  of thumb panel corner
+"ThumbPanelInsideFillet"= 10mm'Fillet applied to inside of thumb panel corner
+"PTTTriggerWidth"= 10mm'Width of the PTT trigger
